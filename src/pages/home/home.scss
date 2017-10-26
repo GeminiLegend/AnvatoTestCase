@@ -1,0 +1,17 @@
+page-home {
+
+.cm-app-iframe{
+    width: 100vw;
+    display: block;
+    border: 0px;
+    height: 3300px;
+    width: 90%
+    &--scoreboard{
+        height: 225px;
+    }
+    }
+
+    .scroll-content {
+        padding: 0px;
+    }
+}

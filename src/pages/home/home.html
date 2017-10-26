@@ -1,0 +1,12 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-content>
+    <iframe ng-non-bindable id='post_iframe' class="cm-app-iframe" scrolling="no" tabindex="-1" *ngIf="safe_url && safe_url !== null" style="display: block; border:0px;" [src]="safe_url"></iframe>
+  
+  </ion-content>
+</ion-content>
